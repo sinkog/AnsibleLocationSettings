@@ -1,0 +1,29 @@
+galaxy_info:
+  origin_author: SmartOps.Academy 
+  author: SmartOps.Academy
+  description: Configures locales (Debian/Ubuntu) and language-support (Ubuntu)
+
+  license: CC-BY-SA
+
+  min_ansible_version: 2.4
+
+  origin_github_branch: https://github.com/SmartOpsAcademy/ansible/roles/language_support
+  github_branch: https://github.com/sinkog/AnsibleLocationSettings.git
+
+  platforms:
+    - name: Debian
+      versions:
+        - jessie
+        - stretch
+        - buster
+    - name: Ubuntu
+      versions:
+        - bionic
+
+  galaxy_tags:
+    - debian
+    - ubuntu
+    - locales
+    - languagesupport
+
+dependencies: []
